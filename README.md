@@ -31,12 +31,12 @@ Quer adicionar mais curiosidades sobre Joinville? O código fonte está disponí
 
 **Vamos juntos construir a maior e mais completa base de conhecimento sobre Joinville!** 
 
-**Acesse o código fonte:** (https://github.com/GabrielDev1667/Primeiro-Site--Alura)
+**Acesse o código fonte:** [https://github.com/GabrielDev1667/Primeiro-Site--Alura]
 
 **Dúvidas? Sugestões?** Entre em contato comigo! 
 
 **Gabriel Silva**
-https://www.linkedin.com/in/gabriel-silva-gds
-https://github.com/GabrielDev1667
+[https://www.linkedin.com/in/gabriel-silva-gds]
+[https://github.com/GabrielDev1667]
 
 **#Joinville #Curiosidades #DesenvolvimentoWeb**
