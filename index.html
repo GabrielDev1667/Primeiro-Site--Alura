@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Joinvas Hoje </title>
+     <style>
+         body {
+            position: relative;
+            z-index: -2;
+            background-image: url('fundo.jpg');
+            background-size: cover;
+            background-position: center center;
+
+            /* filter: blur(5px); */
+
+            
+        }
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            background-color: #2121217d;
+        }
+        
+     </style>
+</head>
+<body>
+    <header>
+        <h1>Curiosidades sobre Joinville</h1>
+    </header>
+    <main>
+        <section>
+        <input type="text" placeholder="Digite sua curiosidade" id="campo-pesquisa" >
+        <button onclick="pesquisar()">Pesquisar</button>
+    </section>
+    <section class="resultados-pesquisa" id="resultados-pesquisa">
+    </section>
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com/in/gabriel-silva-gds" target="_blank">
+            <img src="linkedin-logo.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/GabrielDev1667" target="_blank">
+            <img src="github-logo.png" alt="GitHub">
+        </a>
+        <p>2024 - Curiosidades de Joinville. Todos os direitos reservados</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
